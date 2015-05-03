@@ -45,6 +45,7 @@ if ! type go-slack &> /dev/null ;
 then
     info 'go-slack not found, start installing it'
     sudo wget -O/usr/local/bin/go-slack https://github.com/rodrigosaito/go-slack/releases/download/v0.0.2/go-slack_linux_amd64
+    sudo chmod +x /usr/local/bin/go-slack
     success 'go-slack installed succesfully'
 else
     info 'skip go-slack install, command already available'
