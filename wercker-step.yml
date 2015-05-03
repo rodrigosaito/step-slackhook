@@ -1,5 +1,5 @@
 name: slackhook
-version: 0.0.4
+version: 0.0.5
 description: send messages to slack without any dependency
 keywords:
   - notification
