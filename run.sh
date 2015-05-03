@@ -54,4 +54,4 @@ fi
 
 info 'starting slack notification'
 
-go-slack -url $WERCKER_SLACKHOOK_URL -username $WERCKER_SLACKHOOK_USERNAME -icon-url $WERCKER_SLACKHOOK_ICON_URL $MESSAGE
+go-slack -url $WERCKER_SLACKHOOK_URL -username $WERCKER_SLACKHOOK_USERNAME -icon-url "$WERCKER_SLACKHOOK_ICON_URL $MESSAGE"
